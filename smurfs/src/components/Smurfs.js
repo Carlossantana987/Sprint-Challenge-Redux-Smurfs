@@ -14,7 +14,7 @@ class Smurfs extends React.Component {
           <div key={smurf.id}>
             <h1>{smurf.name}</h1>
             <h3>{smurf.age}</h3>
-            <h3>{smurf.height}</h3>
+            <h3>{smurf.height} inches</h3>
           </div>
         ))}
       </div>
